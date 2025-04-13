@@ -102,7 +102,17 @@
         border-radius: 20px;
         margin: 200px;
         font-size: 1.1em;
-        padding: 80px;
+        padding: 35px;
+        img {
+          width: 200px;
+          height: 200px;
+        }
+        .dialogContent {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        }
         button {
           margin-top: 25px;
           padding: 15px;
@@ -444,6 +454,7 @@ footer {
   }
 
   .introduce {
+    height: 900px;
     .introImg {
       img {
         height: 70%;
@@ -494,6 +505,9 @@ footer {
     margin-top: 150px;
   }
 
+  .follow {
+    margin-top: 300px;
+  }
   footer {
     padding: 20px;
   }

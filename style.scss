@@ -343,7 +343,7 @@ footer {
     }
   }
   .introduce {
-    height: 115vh;
+    height: 123vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -428,6 +428,9 @@ footer {
       }
     }
   }
+  .follow {
+    margin-top: 130px;
+  }
 
   footer {
     padding: 40px;
@@ -506,7 +509,7 @@ footer {
   }
 
   .follow {
-    margin-top: 300px;
+    margin-top: 250px;
   }
   footer {
     padding: 20px;
